@@ -5,7 +5,7 @@ const CardDeal = () => {
   return (
     <section className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>
+        <h2 className={`${styles.heading2} ${styles.flexCenter}`}>
           Find a better card deal <br className='sm:block hidden'/>in few easy steps.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
@@ -15,7 +15,7 @@ const CardDeal = () => {
       </div>
 
       <div className={layout.sectionImg}>
-        <img src={card} alt="card" className='w-[100%] h-[100%] ' />
+        <img src={card} alt="card" className='w-[90%] h-[90%] ' />
       </div>
       
     </section>

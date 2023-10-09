@@ -17,7 +17,7 @@ const Footer = () => {
               <h4 className='font-poppins font-medium text-[18px] leading-[72px] text-white'>
                 {footerLink.title}
               </h4>
-              <ul className='list-none mt-4'>
+              <ul className='list-none mt-4 mr-8'>
                 {footerLink.links.map((link, index) => (
                   <li key={link.name}
                     className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer 
